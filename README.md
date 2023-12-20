@@ -1,6 +1,3 @@
----
-title: My Page
----
 
 # My Content
 
