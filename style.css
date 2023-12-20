@@ -1,0 +1,705 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+
+    width: 150px;
+    padding: 10px 0px;
+}
+
+.topbar {
+
+    background: #FFEFBA;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); 
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.198);
+    
+}
+
+.nev-one > li {
+
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    position: relative;
+ 
+}
+
+.nev-one > li > a {
+
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 2em ;
+    line-height:60px;
+    text-shadow: 5px 5px 10px black;
+
+}
+
+.nev-one > li > a:hover {
+    color: crimson;
+
+}
+
+.nev-one > li > .nev-two {
+
+    position: absolute;
+    background-color: rgb(243, 60, 127);
+    top: 100%;
+    left: 0;
+    white-space: nowrap;
+    display: none;
+   
+}
+.nev-two > li {
+
+    list-style: none;
+    
+}
+
+.nev-two > li > a {
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    border: 1px solid black;
+    font-family: monospace;
+}
+
+.nev-two > li > a:hover {
+
+    color: black;
+    
+}
+
+.nev-one > li:hover > .nev-two {
+    display: block;
+}
+
+.nev-two > li:hover {
+    background-color: white;
+    
+}
+
+.nev-two > li:hover > a {
+    color: red;
+}
+
+.nev-two > li > .dop {
+
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: rgb(243, 60, 127);
+    white-space: nowrap;
+    display: none;
+    
+}
+
+.dop > li {
+
+    list-style: none;
+    
+}
+.dop > li > a {
+
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: monospace;
+
+}
+
+.nev-two > li:hover > .dop {
+    display: block;
+}
+.dop > li:hover{
+
+    background-color: white;
+}
+
+
+
+.dop > li > a:hover {
+
+    color: crimson;
+
+
+}
+
+.sear {
+
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 12px;
+
+
+}
+
+.org {
+    display: inline-block;
+    width: 60%;
+
+}
+
+.sear {
+    
+    padding-left: 90px;
+    
+}
+
+.search {
+    color: crimson;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    vertical-align: middle;
+    border: 2px solid red;
+    
+}
+.sear > [type="submit"] {
+
+    display: inline-block;
+    padding: 13px 20px;
+    vertical-align: middle;
+    margin-left: 2%;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: bolder;
+    box-shadow: 2px 2px 10px black;
+    border: 2px solid white;
+    
+
+}
+.sear > [type="submit"]:hover {
+
+    background-color: deeppink;
+    transform: scale(1.1);
+    transition: .5s;
+}
+.search:hover {
+    background-color: #FFFFFF;
+}
+
+.cover-one{
+
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.627), rgba(255, 255, 255, 0.554)), url(./image/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cover {
+
+    max-width: 600Px;
+}
+
+.cover h3 {
+
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1.3;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.cover p {
+
+    font-size: 1.6em;
+    font-family: monospace;
+    margin-bottom: 30px;
+    color: rgb(23, 23, 47);
+    font-weight: bold;
+
+
+}
+
+.cover a {
+
+    display: inline-block;
+    background-color: white;
+    padding: 15px 20px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 100px ;
+    font-weight: bold;
+    color: rgb(22, 22, 71);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cover a:hover {
+
+    background-color: blue;
+    transform: scale(1.1);
+    transition: .5s;
+    color: white;
+
+
+}
+
+
+.boxone {
+    display: inline-block;
+    width: calc(100% / 3 - 40px );
+    margin-left: 20px;
+    margin-right: 20px;
+
+    
+    
+    height: 400px;
+    margin-top: 100px;
+    
+}
+
+.pic {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.boxone > h2 {
+
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: rgb(33, 33, 69);
+    font-size: 1.7em;
+}
+
+.boxone > p {
+
+    margin-bottom: 20px;
+    line-height: 1;
+    font-size: 1.3em;
+}
+.boxone > a {
+
+    text-decoration: none;
+    color: #adaaaa;
+}
+
+
+
+.img-box {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+
+
+
+}
+
+.img-on {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}   
+
+.haf-page {
+
+    width: 50%;
+    
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 50px;
+    
+    
+   
+
+
+}
+
+.full-box {
+
+    background-color: rgba(184, 225, 246, 0.372);
+}
+
+
+
+
+.haf-page > h4 {
+
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: rgb(20, 20, 60);
+}
+
+.haf-page > span {
+    display: block;
+    height: 5px;
+    width: 30px;
+    background-color: rgba(41, 38, 86, 0.535);
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+
+.haf-page > p {
+
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.haf-page > a {
+
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(41, 30, 64);
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+.spc {
+    margin-bottom: 100px;
+
+
+}
+
+.text-se{
+    text-align: center;
+    
+}
+
+.text-se span {
+
+    display: inline-block;
+    height: 5px;
+    width: 30px;
+    background-color: rgba(41, 38, 86, 0.535);
+    margin-bottom: 20px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.text-se > h3 {
+
+    margin-bottom: 20px;
+    font-size: 3em;
+    
+}
+
+.text-se > p {
+
+    margin-bottom: 80px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    line-height: 1.5;
+    
+}
+
+.only-pic {
+    margin-bottom: 50px;
+    display: inline-block;
+    width: calc(100% / 3)
+    
+
+
+}
+
+.only-img {
+
+    width:100% ;
+    display: block;
+
+
+}
+
+.meddil {
+
+   
+display: block;
+background-color: rgba(245, 242, 242, 0.514);
+
+
+}
+
+.me-on{
+
+    width: calc(100% / 2);
+    
+    
+    display: inline-block;
+    
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+.me-on > h5 {
+
+    
+    
+    padding-right: 30px;
+    font-size: 2.3em;
+    font-family: sans-serif;
+    line-height: 1,2;
+    color: rgb(35, 35, 63);
+    border-right: 5px solid blue;
+}
+
+.me-on > p {
+    text-align: justify;
+    padding-left: 30px;
+    font-size: 1.2em;
+    line-height: 1.2;
+    color: rgb(24, 24, 50);
+
+}
+
+.block {
+    display: inline-block;
+    width: calc(100% / 3 - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+
+}
+
+.block-img {
+
+  
+    width: 30%;
+    object-fit: contain;
+    vertical-align: middle;
+    
+
+
+}
+
+.block h6 {
+    vertical-align: middle;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.block p {
+
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.dj {
+
+    background-image: url(./image/rihad.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin-bottom: 50px;
+    
+}
+
+.dj h5 {
+    
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: rgb(38, 38, 65);
+    padding-top: 50px;
+}
+
+.office {
+
+    
+    max-width: 600px;
+    padding: 50px;
+    background-color: #ffffffce;
+    box-shadow: 10px 10px 40px black;
+    
+}
+
+.office p {
+    color: rgb(41, 41, 63);
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    text-align: justify;
+
+
+}
+
+.ses-img {
+    width: calc(100% / 5);
+    
+    display: inline-block;
+    
+
+
+}
+
+.ses-image {
+    object-fit: contain;
+    padding: 50px;
+
+
+}
+
+.ses-img:nth-child(odd) {
+    background-color: rgba(238, 238, 238, 0.72);
+
+
+}
+.ses-img:nth-child(even){
+
+    background-color: rgba(215, 215, 215, 0.632);
+
+}
+.bangla{
+    text-align: center;
+
+
+}
+.bangla span {
+
+    display: block;
+    height: 5px;
+    width: 30px;
+    background-color: blue;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+
+}
+.bangla h2 {
+
+    font-family: sans-serif;
+    font-size: 3.5em;
+}
+
+.bangla p {
+
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.gov{
+
+    margin-bottom: 100px;
+}
+
+.finish{
+
+    background-image: linear-gradient(to left, rgba(44, 7, 210, 0.817), 
+    rgba(0, 0, 0, 0.674)), url(./image/bg.jpg);
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+
+}
+.foot{
+    display: inline-block;
+    width: calc(100% / 4);
+    height: 400px;
+    
+    vertical-align: top;
+
+}
+
+.last-picture{
+
+    width: 70%;
+    padding: 20px;
+   
+
+
+}
+
+.address{
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: bold;
+    
+
+
+
+}
+
+.foot > h1 {
+
+    font-size: 2em;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color: red;
+
+
+}
+
+.foot > .sam {
+
+    font-size: 1.3em;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.input input {
+
+    width: 100%;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 1.5em;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: #0000003f;
+    border: 2px solid white;
+}
+
+
+.input [type="submit"]:hover {
+
+    background-color: blue;
+    transform: scale(1.1);
+    transition: .5s;
+
+
+}
+
+
+
